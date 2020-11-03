@@ -12,7 +12,7 @@ import dash_table
 app=dash.Dash(__name__, external_stylesheets=[dbc.themes.SPACELAB])
 server = app.server
 ##connecting to the DB
-conn = pymysql.connect('us-cdbr-iron-east-01.cleardb.net',user='be242eefd49980', password = 'fffc0622' ,database = 'heroku_78ca95bfc9020c7')
+conn = pymysql.connect('HOSTNAME',user='USER', password = 'PASSWORD' ,database = 'DBNAME')
 cursor = conn.cursor()
 cursor = conn.cursor()
 
