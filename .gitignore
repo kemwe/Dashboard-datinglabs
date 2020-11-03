@@ -1,0 +1,4 @@
+date
+*.pyc
+.env
+.DS_Store
